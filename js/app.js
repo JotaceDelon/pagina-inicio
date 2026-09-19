@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     iniciarReloj();
     cargarEnlaces();
     iniciarBuscador();
+    iniciarBuscadorWeb();
 
 });
 
@@ -277,24 +278,6 @@ function iniciarBuscador() {
 
     });
 
-
-    // "/" enfoca el buscador
-
-    document.addEventListener("keydown", evento => {
-
-        if (
-            evento.key === "/" &&
-            document.activeElement !== buscador
-        ) {
-
-            evento.preventDefault();
-
-            buscador.focus();
-
-        }
-
-    });
-
 }
 
 
@@ -305,4 +288,32 @@ function normalizarTexto(texto) {
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "");
 
+}
+
+function iniciarBuscadorWeb() {
+    const buscador = document.getElementById("web-search");
+
+    buscador.addEventListener("keydown", evento => {
+        if (evento.key === "Enter") {
+            const texto = buscador.value.trim();
+
+            if (!texto) {
+                return;
+            }
+
+            window.location.href =
+                `https://search.brave.com/search?q=${encodeURIComponent(texto)}`;
+        }
+    });
+
+    document.addEventListener("keydown", evento => {
+        if (
+            evento.ctrlKey &&
+            evento.key.toLowerCase() === "k" &&
+            document.activeElement !== buscador
+        ) {
+            evento.preventDefault();
+            buscador.focus();
+        }
+    });
 }
