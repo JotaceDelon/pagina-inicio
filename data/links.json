@@ -1,0 +1,144 @@
+{
+    "categorias": [
+        {
+            "nombre": "Entretenimiento",
+            "icono": "🎬",
+            "enlaces": [
+                {
+                    "nombre": "Netflix",
+                    "url": "https://www.netflix.com/es/"
+                },
+                {
+                    "nombre": "Crunchyroll",
+                    "url": "https://www.crunchyroll.com/es-es/"
+                },
+                {
+                    "nombre": "YouTube",
+                    "url": "https://www.youtube.com/"
+                },
+                {
+                    "nombre": "Twitch",
+                    "url": "https://www.twitch.tv/"
+                }
+            ]
+        },
+        {
+            "nombre": "Gaming",
+            "icono": "🎮",
+            "enlaces": [
+                {
+                    "nombre": "Steam",
+                    "url": "https://store.steampowered.com/?l=spanish"
+                },
+                {
+                    "nombre": "Epic Games",
+                    "url": "https://www.epicgames.com/site/home?lang=es-ES"
+                },
+                {
+                    "nombre": "Eneba",
+                    "url": "https://www.eneba.com/"
+                }
+            ]
+        },
+        {
+            "nombre": "Wuthering Waves",
+            "icono": "🌊",
+            "enlaces": [
+                {
+                    "nombre": "Prydwen",
+                    "url": "https://www.prydwen.gg/wuthering-waves/team-tier-list"
+                },
+                {
+                    "nombre": "WuWa Tracker",
+                    "url": "https://wuwatracker.com/es/banner-history"
+                }
+            ]
+        },
+        {
+            "nombre": "Trabajo y Docencia",
+            "icono": "💼",
+            "enlaces": [
+                {
+                    "nombre": "ANPE - Bolsas de trabajo",
+                    "url": "https://anpe.es/bolsas-de-trabajo"
+                },
+                {
+                    "nombre": "Andalucía - Bolsas e interinidades",
+                    "url": "https://www.juntadeandalucia.es/educacion/portales/profesorado/bolsas-de-trabajo-e-interinidades"
+                },
+                {
+                    "nombre": "Andalucía - Buscador de centros",
+                    "url": "https://educaweb.juntadeandalucia.es/centros/index.asp?"
+                }
+            ]
+        },
+        {
+            "nombre": "Compras",
+            "icono": "🛒",
+            "enlaces": [
+                {
+                    "nombre": "PcComponentes",
+                    "url": "https://www.pccomponentes.com/"
+                },
+                {
+                    "nombre": "Amazon",
+                    "url": "https://www.amazon.es/"
+                }
+            ]
+        },
+        {
+            "nombre": "Comunicación",
+            "icono": "💬",
+            "enlaces": [
+                {
+                    "nombre": "Gmail",
+                    "url": "https://mail.google.com/"
+                },
+                {
+                    "nombre": "Outlook",
+                    "url": "https://outlook.live.com/"
+                },
+                {
+                    "nombre": "WhatsApp Web",
+                    "url": "https://web.whatsapp.com/"
+                },
+                {
+                    "nombre": "Discord",
+                    "url": "https://discord.com/app"
+                }
+            ]
+        },
+        {
+            "nombre": "Google y Utilidades",
+            "icono": "🧰",
+            "enlaces": [
+                {
+                    "nombre": "Google Drive",
+                    "url": "https://drive.google.com/"
+                },
+                {
+                    "nombre": "Traductor de Google",
+                    "url": "https://translate.google.com/"
+                },
+                {
+                    "nombre": "Google Maps",
+                    "url": "https://maps.google.com/"
+                }
+            ]
+        },
+        {
+            "nombre": "IA y Desarrollo",
+            "icono": "🤖",
+            "enlaces": [
+                {
+                    "nombre": "ChatGPT",
+                    "url": "https://chatgpt.com/"
+                },
+                {
+                    "nombre": "GitHub",
+                    "url": "https://github.com/"
+                }
+            ]
+        }
+    ]
+}

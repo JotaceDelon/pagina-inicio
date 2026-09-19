@@ -1,0 +1,343 @@
+/* ================================
+   RESET
+   ================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    font-family:
+        Inter,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    background:
+        radial-gradient(
+            circle at top,
+            #20242c 0%,
+            #121419 45%,
+            #0b0d10 100%
+        );
+
+    color: #eeeeee;
+}
+
+
+/* ================================
+   CONTENEDOR
+   ================================ */
+
+.container {
+    width: min(1200px, 100%);
+
+    margin: 0 auto;
+
+    padding: 55px 30px 80px;
+}
+
+
+/* ================================
+   CABECERA / RELOJ
+   ================================ */
+
+.header {
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+
+.clock {
+    font-size: clamp(3.5rem, 9vw, 6rem);
+
+    font-weight: 300;
+
+    line-height: 1;
+
+    letter-spacing: -0.06em;
+
+    color: #ffffff;
+}
+
+
+.date {
+    margin-top: 12px;
+
+    font-size: 1.05rem;
+
+    font-weight: 400;
+
+    color: #9da3ad;
+}
+
+
+/* ================================
+   BUSCADOR
+   ================================ */
+
+.search-container {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    width: min(650px, 100%);
+
+    margin: 0 auto 45px;
+
+    padding: 0 18px;
+
+    height: 58px;
+
+    background: rgba(255, 255, 255, 0.055);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    border-radius: 15px;
+
+    backdrop-filter: blur(10px);
+
+    transition:
+        border-color 0.2s ease,
+        background 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+.search-container:focus-within {
+
+    background: rgba(255, 255, 255, 0.07);
+
+    border-color: rgba(255, 255, 255, 0.18);
+
+    box-shadow:
+        0 0 0 3px rgba(255, 255, 255, 0.025);
+}
+
+
+.search-icon {
+    font-size: 1.7rem;
+
+    color: #8f96a1;
+
+    transform: rotate(-20deg);
+}
+
+
+#search {
+    width: 100%;
+
+    height: 100%;
+
+    padding: 0;
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    color: #eeeeee;
+
+    font: inherit;
+
+    font-size: 1rem;
+}
+
+
+#search::placeholder {
+    color: #777e89;
+}
+
+
+#search::-webkit-search-cancel-button {
+    filter: invert(1);
+
+    cursor: pointer;
+}
+
+
+/* ================================
+   CATEGORÍAS
+   ================================ */
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.category {
+    margin-bottom: 0;
+    padding: 14px;
+
+    background: rgba(255, 255, 255, 0.035);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 15px;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.16);
+}
+
+
+.category-header {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 12px;
+}
+
+
+.category-icon {
+    font-size: 1.25rem;
+}
+
+
+.category-header h2 {
+    margin: 0;
+
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+
+    color: #f5f5f5;
+}
+
+
+/* ================================
+   ENLACES
+   ================================ */
+
+.links {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(155px, 1fr));
+    gap: 8px;
+}
+
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    min-height:44px;
+    padding: 7px 9px;
+
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.055);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+
+    color: #eeeeee;
+    text-decoration: none;
+
+    transition:
+        transform 0.15s ease,
+        background 0.15s ease,
+        border-color 0.15s ease,
+        box-shadow 0.15s ease;
+}
+
+
+.link:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.09);
+    border-color: rgba(255, 255, 255, 0.13);
+    box-shadow:
+        0 6px 16px rgba(0, 0, 0, 0.22);
+}
+
+
+/* ================================
+   ICONOS
+   ================================ */
+
+.link-icon,
+.link-icon-fallback {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    object-fit: contain;
+}
+
+
+.link-icon-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.15rem;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+
+.link-name {
+    min-width: 0;
+
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1.15;
+
+    overflow: hidden;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+/* ================================
+   RESPONSIVE
+   ================================ */
+
+@media (max-width: 1000px) {
+    .categories {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container {
+        padding: 35px 15px 50px;
+    }
+
+    .clock {
+        font-size: 4rem;
+    }
+
+    .category {
+        padding: 18px;
+
+        border-radius: 15px;
+    }
+
+    .links {
+        grid-template-columns: 1fr;
+    }
+
+    .link {
+        min-height: 58px;
+
+        padding: 10px;
+    }
+
+    .link-icon,
+    .link-icon-fallback {
+        width: 28px;
+
+        height: 28px;
+    }
+}
