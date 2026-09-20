@@ -163,11 +163,6 @@ function crearEnlace(enlace) {
 
     elemento.href = enlace.url;
 
-    elemento.target = "_blank";
-
-    elemento.rel = "noopener noreferrer";
-
-
     const icono = document.createElement("img");
 
     icono.classList.add("link-icon");

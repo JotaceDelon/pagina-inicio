@@ -420,15 +420,75 @@ body {
     }
 
     .link {
-        min-height: 58px;
-
-        padding: 10px;
+        min-height: 44px;
+        padding: 7px 9px;
     }
 
     .link-icon,
     .link-icon-fallback {
-        width: 28px;
+        width: 24px;
+        height: 24px;
+    }
+}
 
-        height: 28px;
+@media (max-height: 800px) and (min-width: 1001px) {
+
+    .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .header {
+        margin-bottom: 20px;
+    }
+
+    .clock {
+        font-size: clamp(3rem, 7vw, 4.5rem);
+    }
+
+    .date {
+        margin-top: 6px;
+        font-size: 0.95rem;
+    }
+
+    .web-search-container,
+    .search-container {
+        height: 50px;
+        margin-bottom: 15px;
+    }
+
+    .links-title {
+        margin-bottom: 8px;
+    }
+
+    .categories {
+        gap: 10px;
+    }
+
+    .category {
+        padding: 10px;
+    }
+
+    .category-header {
+        margin-bottom: 8px;
+    }
+
+    .links {
+        gap: 5px;
+    }
+
+    .link {
+        min-height: 38px;
+        padding: 5px 7px;
+    }
+
+    .link-icon,
+    .link-icon-fallback {
+        width: 20px;
+        height: 20px;
+    }
+
+    .link-name {
+        font-size: 0.78rem;
     }
 }
