@@ -41,7 +41,7 @@
             ]
         },
         {
-            "nombre": "Wuthering Waves",
+            "nombre": "Utilidades gaming",
             "icono": "🌊",
             "enlaces": [
                 {
@@ -51,7 +51,11 @@
                 {
                     "nombre": "WuWa Tracker",
                     "url": "https://wuwatracker.com/es/banner-history"
-                }
+                },
+                {
+                    "nombre": "Tipos Pokémon",
+                    "url": "https://jotacedelon.github.io/tipos-pokemon/"
+                }                
             ]
         },
         {
