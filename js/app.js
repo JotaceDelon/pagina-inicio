@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     iniciarBuscador();
     iniciarBuscadorWeb();
 
+    document.getElementById("web-search").focus();
 });
 
 
