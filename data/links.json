@@ -89,6 +89,10 @@
                 {
                     "nombre": "SIPRI",
                     "url": "https://sipri.juntadeandalucia.es/sipri/inicio/"
+                },
+                {
+                    "nombre": "ARAG PADDOC",
+                    "url": "https://educa.aragon.es/-/paddoc"
                 }
             ]
         },
