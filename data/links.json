@@ -67,12 +67,28 @@
                     "url": "https://anpe.es/bolsas-de-trabajo"
                 },
                 {
-                    "nombre": "Andalucía - Bolsas e interinidades",
+                    "nombre": "AND - Bolsas e interinidades",
                     "url": "https://www.juntadeandalucia.es/educacion/portales/profesorado/bolsas-de-trabajo-e-interinidades"
                 },
                 {
-                    "nombre": "Andalucía - Buscador de centros",
+                    "nombre": "AND - Buscador de centros",
                     "url": "https://educaweb.juntadeandalucia.es/centros/index.asp?"
+                },
+                {
+                    "nombre": "OPO - Ofertas interinidades",
+                    "url": "https://www.opositoresdocentes.net/2026/?m=0"
+                },
+                {
+                    "nombre": "MUR - Interinidad Murcia",
+                    "url": "https://servicios.educarm.es/admin/index2.php?aplicacion=BUSCADOR_INTERINOS&module=buscadorInterinos"
+                },
+                {
+                    "nombre": "ARAG - Interinidad Aragón",
+                    "url": "https://www.aragon.es/-/listas-de-interinos"
+                },
+                {
+                    "nombre": "SIPRI",
+                    "url": "https://sipri.juntadeandalucia.es/sipri/inicio/"
                 }
             ]
         },
@@ -80,10 +96,6 @@
             "nombre": "Compras",
             "icono": "🛒",
             "enlaces": [
-                {
-                    "nombre": "PcComponentes",
-                    "url": "https://www.pccomponentes.com/"
-                },
                 {
                     "nombre": "Amazon",
                     "url": "https://www.amazon.es/"
