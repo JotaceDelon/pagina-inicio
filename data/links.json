@@ -83,6 +83,10 @@
                     "url": "https://servicios.educarm.es/admin/index2.php?aplicacion=BUSCADOR_INTERINOS&module=buscadorInterinos"
                 },
                 {
+                    "nombre": "MUR - Sede E.",
+                    "url": "https://sede.carm.es/web/pagina?IDCONTENIDO=141&IDTIPO=240&RASTRO=c%24m"
+                },
+                {
                     "nombre": "ARAG - Interinidad Aragón",
                     "url": "https://www.aragon.es/-/listas-de-interinos"
                 },
@@ -91,7 +95,7 @@
                     "url": "https://sipri.juntadeandalucia.es/sipri/inicio/"
                 },
                 {
-                    "nombre": "ARAG PADDOC",
+                    "nombre": "ARAG - PADDOC",
                     "url": "https://educa.aragon.es/-/paddoc"
                 }
             ]
