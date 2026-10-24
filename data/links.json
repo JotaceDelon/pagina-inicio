@@ -55,48 +55,6 @@
                 {
                     "nombre": "Tipos Pokémon",
                     "url": "https://jotacedelon.github.io/tipos-pokemon/"
-                }                
-            ]
-        },
-        {
-            "nombre": "Trabajo y Docencia",
-            "icono": "💼",
-            "enlaces": [
-                {
-                    "nombre": "ANPE - Bolsas de trabajo",
-                    "url": "https://anpe.es/bolsas-de-trabajo"
-                },
-                {
-                    "nombre": "AND - Bolsas e interinidades",
-                    "url": "https://www.juntadeandalucia.es/educacion/portales/profesorado/bolsas-de-trabajo-e-interinidades"
-                },
-                {
-                    "nombre": "AND - Buscador de centros",
-                    "url": "https://educaweb.juntadeandalucia.es/centros/index.asp?"
-                },
-                {
-                    "nombre": "OPO - Ofertas interinidades",
-                    "url": "https://www.opositoresdocentes.net/2026/?m=0"
-                },
-                {
-                    "nombre": "MUR - Interinidad Murcia",
-                    "url": "https://servicios.educarm.es/admin/index2.php?aplicacion=BUSCADOR_INTERINOS&module=buscadorInterinos"
-                },
-                {
-                    "nombre": "MUR - Sede E.",
-                    "url": "https://sede.carm.es/web/pagina?IDCONTENIDO=141&IDTIPO=240&RASTRO=c%24m"
-                },
-                {
-                    "nombre": "ARAG - Interinidad Aragón",
-                    "url": "https://www.aragon.es/-/listas-de-interinos"
-                },
-                {
-                    "nombre": "SIPRI",
-                    "url": "https://sipri.juntadeandalucia.es/sipri/inicio/"
-                },
-                {
-                    "nombre": "ARAG - PADDOC",
-                    "url": "https://educa.aragon.es/-/paddoc"
                 }
             ]
         },
@@ -147,6 +105,16 @@
                 {
                     "nombre": "Google Maps",
                     "url": "https://maps.google.com/"
+                },
+                {
+                    "nombre": "DeepL",
+                    "url": "https://www.deepl.com/translator",
+                    "sugerido": true
+                },
+                {
+                    "nombre": "iLovePDF",
+                    "url": "https://www.ilovepdf.com/es",
+                    "sugerido": true
                 }
             ]
         },
@@ -161,6 +129,32 @@
                 {
                     "nombre": "GitHub",
                     "url": "https://github.com/"
+                },
+                {
+                    "nombre": "Claude",
+                    "url": "https://claude.ai/",
+                    "sugerido": true
+                },
+                {
+                    "nombre": "Perplexity",
+                    "url": "https://www.perplexity.ai/",
+                    "sugerido": true
+                }
+            ]
+        },
+        {
+            "nombre": "Herramientas creativas",
+            "icono": "🎨",
+            "enlaces": [
+                {
+                    "nombre": "Photopea",
+                    "url": "https://www.photopea.com/",
+                    "sugerido": true
+                },
+                {
+                    "nombre": "Excalidraw",
+                    "url": "https://excalidraw.com/",
+                    "sugerido": true
                 }
             ]
         }
