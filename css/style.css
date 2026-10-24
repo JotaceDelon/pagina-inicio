@@ -229,13 +229,14 @@ kbd {
 }
 
 .categories {
-    display:grid;
-    grid-template-columns:repeat(3,minmax(0,1fr));
-    gap:12px;
-    align-items:start
+    column-count:3;
+    column-gap:12px
 }
 
 .category {
+    break-inside:avoid;
+    display:flow-root;
+    margin-bottom:12px;
     background:var(--panel);
     border:1px solid var(--border);
     border-radius:14px;
@@ -271,6 +272,10 @@ kbd {
     display:grid;
     grid-template-columns:repeat(2,minmax(0,1fr));
     gap:6px
+}
+
+.link:last-child:nth-child(odd) {
+    grid-column:1 / -1
 }
 
 .link {
@@ -391,11 +396,8 @@ dialog label {
 .topbar-tools { display:flex; align-items:center; gap:22px; }
 .topbar-tools>button { background:transparent; color:var(--muted); font-size:12px; }
 .section-heading { margin-bottom:12px; }
-@media(max-width:1150px) {
-    .categories { grid-template-columns:repeat(3,minmax(0,1fr)); }
-    }
 @media(max-width:900px) {
-    .categories { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .categories { column-count:2; }
     .container { padding:18px; }
     .date { font-size:11px; }
     .topbar-tools { gap:12px; }
@@ -413,10 +415,10 @@ dialog label {
     .topbar-tools .button-label { display:none; }
     .searches { grid-template-columns:1fr; gap:8px; }
     .search-box { padding:5px 10px; }
-    .categories { grid-template-columns:1fr; gap:10px; }
+    .categories { column-count:1; }
     .section-heading>span { display:none; }
     .section-heading h1,.section-heading h2 { font-size:14px; }
-    .category { padding:13px 10px 10px; }
+    .category { padding:13px 10px 10px; margin-bottom:10px; }
     .category-header { margin-bottom:10px; }
     .link-name { font-size:12px; }
     footer { flex-direction:column; gap:5px; line-height:1.8; }
@@ -488,7 +490,7 @@ dialog label {
 .notes-shortcut { display:none; font-size:12px; color:var(--accent); text-decoration:none; }
 .notes-shortcut:hover { text-decoration:underline; }
 @media(max-width:1250px) {
-    .workspace .categories { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    .workspace .categories { column-count:2; }
     .workspace { gap:16px; grid-template-columns:minmax(0,1fr) 270px; }
 }
 @media(max-width:900px) {
@@ -499,7 +501,7 @@ dialog label {
 }
 @media(max-width:600px) {
     .searches { margin:15px 0 22px; }
-    .workspace .categories { grid-template-columns:1fr; }
+    .workspace .categories { column-count:1; }
     .sidebar { grid-template-columns:1fr; }
     .notes textarea { min-height:190px; }
 }

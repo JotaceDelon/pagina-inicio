@@ -4,7 +4,7 @@ Página estática para GitHub Pages, sin servidor ni autenticación. Los enlaces
 
 ## Gestionar enlaces
 
-Para añadir, cambiar, ordenar o quitar un enlace, edita `data/links.json` y publica el cambio mediante un commit en el repositorio. El orden de las categorías y enlaces en el archivo determina su orden en la página.
+Para añadir, cambiar, ordenar o quitar un enlace, edita `data/links.json` y publica el cambio mediante un commit en el repositorio. El orden de las categorías y enlaces en el archivo determina su orden en la página. Las categorías mantienen el mismo ancho y se apilan de arriba abajo y después de izquierda a derecha en columnas equilibradas, sin huecos entre filas. Si una categoría tiene un número impar de enlaces, el último ocupa todo el ancho de su fila. En móvil se muestra una sola columna.
 
 Ejemplo de categoría:
 
